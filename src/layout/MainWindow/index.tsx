@@ -176,4 +176,3 @@ const MainWindow: FC = () => {
 }
 
 export default MainWindow;
-
