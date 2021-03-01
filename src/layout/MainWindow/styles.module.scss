@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding-top: 50px;
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+
+  .input_block {
+    width: 33%;
+
+    .input_checkbox {
+      .input_name {
+        color: #000;
+        padding: 10px;
+      }
+
+      .input_checkbox_field {
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .input_text {
+      .input_name {
+        padding: 10px;
+        color: #000;
+      }
+
+      .input_text_field {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+      }
+    }
+
+    .button_click {
+      text-transform: uppercase;
+      display: block;
+      width: 90px;
+      height: 30px;
+      margin: 20px auto 0;
+    }
+  }
+
+  .waiting {
+    width: 33%;
+    margin: 0 auto;
+  }
+
+  .result {
+    width: 33%;
+
+    .error {
+      padding-top: 30px;
+      color: red;
+      font-size: 24px;
+    }
+
+    .result_paragraph {
+      padding: 30px 0;
+      font-size: 24px;
+    }
+
+    .result_logic {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
+}
